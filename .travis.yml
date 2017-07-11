@@ -2,8 +2,8 @@ language: android
 
 #script: "./gradlew build connectedCheck"
 
-#before_install:
-    #- chmod +x gradlew
+before_install:
+    - chmod +x gradlew
 
 android:
   components:
